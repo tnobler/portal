@@ -1,11 +1,21 @@
 .header {
-    grid-rows: 1/-1;
-    grid-columns: logo-s/e;
+    grid-rows: header-s/header-e;
+    grid-column: 1/-1;
 
     display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: [logo-s s] 141px [logo-e] [navbar-s] 1fr [navbar-e signin-s] 141px [signin-e e];
     align-content: center;
     
     background-color: $color-rebus-black;
     box-shadow: 0 2px 6px 0 rgba(0,0,0,0.2);
+
+    img {
+        height: 100px;
+        width: 131px;
+    }
+    
 }
+
+
 

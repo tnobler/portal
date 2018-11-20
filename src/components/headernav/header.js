@@ -5,7 +5,8 @@ class Header extends Component {
     render () {
         return (
             <div className='header'>
-                <Logo/>
+                {/* <Logo/> */}
+                <img alt='rebus capital logo plain' src="/assets/rebus-logo-black-background.png"/>
                 
             </div>
         );
