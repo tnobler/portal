@@ -1,5 +1,5 @@
-# React/Redux/Router Starter Project
+# React/Redux/Router Investor Portal Project
 
-> Provided for the students of the [Bottega Code School](https://bottega.tech/)
+> A portal to display investor data for Rebus Capital [Rebus Capital LLC](https://rebuscap.com/)
 
-*Fork from [es6-webpack2-starter](https://github.com/micooz/es6-webpack2-starter)*
+*Created By [Tnob](https://github.com/tnobler)*
